@@ -1,0 +1,55 @@
+{
+    "Events": "Events",
+    "About": "About",
+    "upcomingEvents": "Upcoming Events",
+    "pastEvents": "Past Events",
+    "yourEvents": "Your Events",
+    "community": "Community",
+    "academies": "Academies",
+    "affiliations": "Affiliations",
+    "athletes": "Athletes",
+    "login":"Log in",
+    "signup": "Create account",
+    "Features & pricing": "Features & pricing",
+    "Support": "Support",
+    "Find events": "Find events",
+
+    
+      "footer": {
+        "logo": "SMOOTHCOMP",
+        "athletes": {
+          "title": "ATHLETES",
+          "mobile": "Mobile app",
+          "events": "Find events",
+          "login": "Log in",
+          "register": "Create account",
+          "kb": "Knowledge base"
+        },
+        "organizer": {
+          "title": "ORGANIZER",
+          "become": "Become an Organizer",
+          "scoreboard": "Scoreboard",
+          "livestreams": "Livestreams",
+          "federation": "Federation Platform",
+          "pricing": "Pricing",
+          "kb": "Knowledge base",
+          "support": "Support"
+        },
+        "community": {
+          "title": "COMMUNITY",
+          "academies": "Academies",
+          "affiliations": "Affiliations",
+          "athletes": "Athletes",
+          "kb": "Knowledge base",
+          "support": "Support"
+        },
+        "bottom": {
+          "company": "Smoothcomp AB, Sweden",
+          "agreements": "Agreements",
+          "privacy": "Privacy Policy",
+          "about": "About us",
+          "logo": "Logo & Press Kit Download"
+        }
+      }
+  }
+  

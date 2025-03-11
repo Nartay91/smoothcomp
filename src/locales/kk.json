@@ -1,0 +1,55 @@
+{
+    "Events": "Жарыстар",
+    "About": "Біз туралы",
+    "upcomingEvents": "Алдағы жарыстар",
+    "pastEvents": "Өткен жарыстар",
+    "yourEvents": "Сіздің жарыстарыңыз",
+    "community": "Қауымдастық",
+    "academies": "Академиялар",
+    "affiliations": "Аффилиациялар",
+    "athletes": "Спортшылар",
+    "login": "Кіру",
+    "signup": "Аккаунт ашу",
+    "Features & pricing": "Қызметтер бағалар",
+    "Support": "Қолдау",
+    "Find events": "Жарыстарды іздеу",
+
+    
+      "footer": {
+        "logo": "SMOOTHCOMP",
+        "athletes": {
+          "title": "СПОРТШЫЛАР",
+          "mobile": "Мобильді қосымша",
+          "events": "Іс-шараларды табу",
+          "login": "Кіру",
+          "register": "Тіркелу",
+          "kb": "Білім қоры"
+        },
+        "organizer": {
+          "title": "ҰЙЫМДАСТЫРУШЫ",
+          "become": "Ұйымдастырушы болу",
+          "scoreboard": "Ұпай тақтасы",
+          "livestreams": "Тікелей трансляциялар",
+          "federation": "Федерация платформасы",
+          "pricing": "Бағалар",
+          "kb": "Білім қоры",
+          "support": "Қолдау"
+        },
+        "community": {
+          "title": "ҚАУЫМДАСТЫҚ",
+          "academies": "Академиялар",
+          "affiliations": "Ассоциациялар",
+          "athletes": "Спортшылар",
+          "kb": "Білім қоры",
+          "support": "Қолдау"
+        },
+        "bottom": {
+          "company": "Smoothcomp AB, Швеция",
+          "agreements": "Келісімдер",
+          "privacy": "Құпиялылық саясаты",
+          "about": "Біз туралы",
+          "logo": "Логотип және баспасөз жиынтығы"
+        }
+      }
+  }
+  

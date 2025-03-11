@@ -1,0 +1,55 @@
+{
+  "Events": "Турниры",
+  "About": "Подробнее",
+  "upcomingEvents": "Предстоящие события",
+  "pastEvents": "Прошедшие события",
+  "yourEvents": "Ваши события",
+  "community": "Сообщество",
+  "academies": "Академии",
+  "affiliations": "Аффилиации",
+  "athletes": "Спортсмены",
+  "login": "Войти",
+  "signup": "Создать аккаунт",
+  "Features & pricing": "Функции и цены",
+  "Support": "Поддержка",
+  "Find events": "Просматривать турнир",
+  
+  "footer": {
+    "logo": "SMOOTHCOMP",
+    "athletes": {
+      "title": "СПОРТСМЕНЫ",
+      "mobile": "Мобильное приложение",
+      "events": "Найти события",
+      "login": "Войти",
+      "register": "Создать аккаунт",
+      "kb": "База знаний"
+    },
+    "organizer": {
+      "title": "ОРГАНИЗАТОР",
+      "become": "Стать организатором",
+      "scoreboard": "Табло",
+      "livestreams": "Прямые трансляции",
+      "federation": "Платформа федерации",
+      "pricing": "Цены",
+      "kb": "База знаний",
+      "support": "Поддержка"
+    },
+    "community": {
+      "title": "СООБЩЕСТВО",
+      "academies": "Академии",
+      "affiliations": "Ассоциации",
+      "athletes": "Спортсмены",
+      "kb": "База знаний",
+      "support": "Поддержка"
+    },
+    "bottom": {
+      "company": "Smoothcomp AB, Швеция",
+      "agreements": "Соглашения",
+      "privacy": "Политика конфиденциальности",
+      "about": "О нас",
+      "logo": "Логотип и пресс-кит"
+    }
+  }
+}
+
+  

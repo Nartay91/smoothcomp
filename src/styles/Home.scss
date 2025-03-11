@@ -1,0 +1,68 @@
+.home {
+  background-color: #000;
+  .sport-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #fff;
+
+    .yellow {
+      color: #e7e979;
+    }
+  }
+    .hero {
+      background: url("../assets/primary-image.webp") center/cover no-repeat;
+      height: 100%;
+      display: flex;
+      align-items: flex-start;
+      text-align: start;
+      color: #fff;
+  
+      .container {
+        max-width: 1200px;
+        margin-left: 50px;
+      }
+  
+      .title-heading {
+        font-size: 5rem;
+        font-weight: normal;
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+        // align-items: flex-start;
+        // align-content: flex-start;
+      }
+  
+      .buttons {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 120px;
+        // justify-content: center;
+      }
+  
+      .btn {
+        padding: 20px 20px;
+        border-radius: 30px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+        border: none;
+  
+        &.primary {
+          background: blue;
+          color: white;
+        }
+  
+        &.secondary {
+          background: gray;
+          color: white;
+        }
+  
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  
