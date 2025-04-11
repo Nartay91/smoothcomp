@@ -1,0 +1,287 @@
+.tournament-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  
+    .tournament-header {
+      text-align: center;
+      margin-bottom: 30px;
+  
+      h1 {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+  
+      .description {
+        font-size: 1.1rem;
+        color: #7f8c8d;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+  
+    .tournament-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 40px;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+  
+      .info-item {
+        display: flex;
+        flex-direction: column;
+  
+        .label {
+          font-weight: bold;
+          color: #34495e;
+          margin-bottom: 5px;
+        }
+  
+        .status {
+          text-transform: capitalize;
+          font-weight: bold;
+          color: #27ae60;
+        }
+      }
+    }
+  
+    .categories-section,
+    .registrations-section {
+      margin-bottom: 40px;
+  
+      h2 {
+        font-size: 1.8rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+      }
+  
+      .category-list,
+      .registration-list {
+        list-style: none;
+        padding: 0;
+  
+        .category-item,
+        .registration-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 15px;
+          background: #fff;
+          border: 1px solid #ecf0f1;
+          border-radius: 8px;
+          margin-bottom: 10px;
+          flex-wrap: wrap;
+  
+          .category-name {
+            font-weight: bold;
+            color: #34495e;
+          }
+  
+          .category-details {
+            color: #7f8c8d;
+            margin-left: 10px;
+          }
+  
+          .user-link {
+            color: #2980b9;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+  
+          .status {
+            margin: 0 10px;
+            text-transform: capitalize;
+          }
+  
+          .category-actions,
+          .status-select {
+            margin-left: 10px;
+          }
+  
+          .status-select {
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid #bdc3c7;
+            background: #fff;
+            color: #34495e;
+          }
+        }
+      }
+  
+      .no-data {
+        font-style: italic;
+        color: #95a5a6;
+      }
+  
+      .category-form {
+        margin-top: 20px;
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+  
+        h3 {
+          font-size: 1.4rem;
+          color: #2c3e50;
+          margin-bottom: 15px;
+        }
+  
+        .form-group {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          flex-wrap: wrap;
+  
+          .input-field {
+            padding: 10px;
+            border: 1px solid #bdc3c7;
+            border-radius: 4px;
+            flex: 1;
+            min-width: 200px;
+            font-size: 1rem;
+          }
+        }
+  
+        &.edit-form {
+          background: #ecf0f1;
+        }
+      }
+    }
+  
+    .actions-section {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      padding-top: 20px;
+      border-top: 1px solid #ecf0f1;
+    }
+  
+    .btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+  
+      &.edit-btn {
+        background: #3498db;
+        color: #fff;
+        &:hover {
+          background: #2980b9;
+        }
+      }
+  
+      &.delete-btn {
+        background: #e74c3c;
+        color: #fff;
+        &:hover {
+          background: #c0392b;
+        }
+      }
+  
+      &.create-btn,
+      &.save-btn {
+        background: #2ecc71;
+        color: #fff;
+        &:hover {
+          background: #27ae60;
+        }
+      }
+  
+      &.cancel-btn {
+        background: #95a5a6;
+        color: #fff;
+        &:hover {
+          background: #7f8c8d;
+        }
+      }
+  
+      &.back-btn {
+        background: #34495e;
+        color: #fff;
+        &:hover {
+          background: #2c3e50;
+        }
+      }
+    }
+  
+    .loading,
+    .error,
+    .not-found {
+      text-align: center;
+      padding: 20px;
+      font-size: 1.2rem;
+    }
+  
+    .error {
+      color: #e74c3c;
+    }
+  
+    .not-found {
+      color: #7f8c8d;
+    }
+  }
+  
+  // Адаптивность
+  @media (max-width: 768px) {
+    .tournament-details {
+      padding: 15px;
+  
+      .tournament-header {
+        h1 {
+          font-size: 2rem;
+        }
+        .description {
+          font-size: 1rem;
+        }
+      }
+  
+      .tournament-info {
+        grid-template-columns: 1fr;
+      }
+  
+      .categories-section,
+      .registrations-section {
+        h2 {
+          font-size: 1.5rem;
+        }
+  
+        .category-item,
+        .registration-item {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 10px;
+        }
+      }
+  
+      .actions-section {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tournament-details {
+      .btn {
+        width: 100%;
+        padding: 12px;
+      }
+  
+      .category-form .form-group {
+        flex-direction: column;
+        .input-field {
+          width: 100%;
+        }
+      }
+    }
+  }

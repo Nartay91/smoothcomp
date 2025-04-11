@@ -1,0 +1,77 @@
+.tournaments-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .filter-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #5d66e7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: #3638ac;
+      }
+    }
+  
+    .tournaments-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+  
+      .tournament-card {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 20px;
+          color: #5d66e7;
+          margin-bottom: 10px;
+        }
+  
+        p {
+          font-size: 16px;
+          color: #666;
+          margin: 5px 0;
+  
+          strong {
+            color: #333;
+          }
+        }
+  
+        .details-btn {
+          display: inline-block;
+          padding: 8px 15px;
+          background: #5d66e7;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+          margin-top: 10px;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: #3638ac;
+          }
+        }
+      }
+    }
+  
+    .loading, .error {
+      font-size: 18px;
+      text-align: center;
+      color: #5d66e7;
+    }
+  }

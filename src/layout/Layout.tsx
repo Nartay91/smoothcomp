@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main style={{backgroundColor: "#1c1c1c"}}>
         <Outlet />
       </main>
       <Footer />

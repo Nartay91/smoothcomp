@@ -1,0 +1,112 @@
+.admin-tournaments-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .actions {
+      margin-bottom: 20px;
+    }
+  
+    .tournaments-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  
+      .tournament-card {
+        background: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        width: 350px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+  
+        .categories,
+        .registrations {
+          margin-top: 10px;
+  
+          ul {
+            list-style-type: disc;
+            margin-left: 20px;
+  
+            li {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+            }
+          }
+        }
+  
+        .tournament-actions {
+          margin-top: 10px;
+          display: flex;
+          gap: 10px;
+  
+          .btn {
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+  
+            &.details-btn {
+              background-color: #28a745;
+              &:hover {
+                background-color: #218838;
+              }
+            }
+  
+            &.edit-btn {
+              background-color: #ffc107;
+              &:hover {
+                background-color: #e0a800;
+              }
+            }
+  
+            &.delete-btn {
+              background-color: #dc3545;
+              &:hover {
+                background-color: #c82333;
+              }
+            }
+          }
+        }
+  
+        .delete-btn,
+        .add-athlete-btn {
+          padding: 5px 10px;
+          margin-left: 10px;
+          border-radius: 5px;
+          color: white;
+  
+          &.delete-btn {
+            background-color: #dc3545;
+            &:hover {
+              background-color: #c82333;
+            }
+          }
+  
+          &.add-athlete-btn {
+            background-color: #007bff;
+            &:hover {
+              background-color: #0056b3;
+            }
+          }
+        }
+      }
+    }
+  
+    .loading,
+    .error {
+      font-size: 1.2rem;
+      text-align: center;
+      padding: 20px;
+    }
+  }

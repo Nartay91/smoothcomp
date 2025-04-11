@@ -13,6 +13,30 @@
     "Features & pricing": "Features & pricing",
     "Support": "Support",
     "Find events": "Find events",
+    "Tournaments": "Tournaments",
+    "Filter tournaments": "Filter tournaments",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "Details": "Details",
+    "noTournaments": "No tournaments available",
+    "Find tournaments": "Find Tournaments",
+    "name": "Name",
+      "Enter tournament name": "Enter tournament name",
+    "Enter location": "Enter location",
+    "All": "All",
+    "Open": "Open",
+    "In Progress": "In Progress",
+    "Completed": "Completed",
+    "Search": "Search",
+    "Searching...": "Searching...",
+    "Create tournament": "Create Tournament",
+    "registrationDeadline": "Registration Deadline",
+    "maxParticipants": "Max Participants",
+    "Draft": "Draft",
+    "Closed": "Closed",
+    "Create": "Create",
+    "Creating...": "Creating...",
 
     
       "footer": {
@@ -52,4 +76,3 @@
         }
       }
   }
-  

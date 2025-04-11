@@ -1,0 +1,64 @@
+.create-tournament-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    .create-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      .form-group {
+        label {
+          font-size: 16px;
+          color: #333;
+          margin-bottom: 5px;
+          display: block;
+        }
+  
+        input, select, textarea {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+  
+        textarea {
+          min-height: 100px;
+        }
+      }
+  
+      .submit-btn {
+        padding: 10px 20px;
+        background: #5d66e7;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+  
+        &:hover {
+          background: #3638ac;
+        }
+  
+        &:disabled {
+          background: #999;
+          cursor: not-allowed;
+        }
+      }
+    }
+  
+    .error {
+      font-size: 18px;
+      color: #ff0000;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
